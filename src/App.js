@@ -1,11 +1,13 @@
-import './App.css';
+import TitleCard from './components/TitleCard'
+import NavBar from './components/NavBar'
+import { Container } from 'react-bootstrap'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>1MUSICAVE</p>
-      </header>
+    <div className="App">       
+        <Container>
+        <NavBar /> 
+        </Container>     
     </div>
   );
 }
