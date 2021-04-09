@@ -1,6 +1,10 @@
 .titlebar {
-    background-color: darkblue;
-    color: white;
-    text-align: center;  
-    padding: 20px 0;  
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+i {
+    padding: 10px;
 }

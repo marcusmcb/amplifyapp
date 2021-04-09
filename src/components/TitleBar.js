@@ -8,7 +8,10 @@ const TitleBar = () => {
     <div>
       <Row className='titlebar'>
         <Col lg={true}>1MUSICAVE | Having Fun While Business Gets Done!</Col>
-        <Col lg={true}>( socials )</Col>
+        <Col className='social-icons' lg={true}>
+          <i className='fa fa-instagram'></i>          
+          <i className='fa fa-youtube'></i>
+        </Col>
       </Row>
     </div>
   )
