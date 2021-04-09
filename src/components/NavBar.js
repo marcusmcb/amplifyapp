@@ -1,14 +1,9 @@
 import React from 'react'
-import { Row, Col, Container } from 'react-bootstrap'
-
-import './navbar.css'
 
 const NavBar = () => {
   return (
     <div>
-      <Row className='navbar'>
-        <Col lg={true}>1MUSICAVE | Having Fun While Business Gets Done!</Col>
-      </Row>
+      
     </div>
   )
 }
