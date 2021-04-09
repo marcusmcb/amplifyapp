@@ -5,6 +5,11 @@
   padding: 20px 0;
 }
 
-i {
-    padding: 10px;
+.social-icons {
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+a:visited {
+  color: white;
 }
