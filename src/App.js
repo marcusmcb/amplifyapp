@@ -1,4 +1,8 @@
 import TitleBar from './components/TitleBar'
+import NavBar from './components/NavBar'
+import MediaCard from './components/MediaCard'
+import DanceRadioChart from './components/DanceRadioChart'
+
 import { Container } from 'react-bootstrap'
 
 function App() {
@@ -6,6 +10,9 @@ function App() {
     <div className='App'>
       <Container>
         <TitleBar />
+        <NavBar />
+        <MediaCard />
+        {/* <DanceRadioChart /> */}
       </Container>
     </div>
   )
