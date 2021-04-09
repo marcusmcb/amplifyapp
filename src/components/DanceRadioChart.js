@@ -1,23 +1,25 @@
 import React from 'react'
 import { Row } from 'react-bootstrap'
 
-import { readRemoteFile } from 'react-papaparse';
+import chart from '../images/dance-radio-chart.jpg'
 
-const DanceRadioChart = () => {
-    readRemoteFile('https://1drv.ms/x/s!Ap_EbLI5WiBGgpBYUWzBeiLE2JViNg?e=JwBK8L', {
-        complete: (results) => {
-            console.log('Results:', results)
-        }
-    })
+import { readRemoteFile } from 'react-papaparse'
+
+const DanceRadioChart = () => {    
+    
+//   readRemoteFile('../data/test-chart.csv', {
+//     header: true,
+//     download: true,
+//     dynamicTyping: true,
+//     complete: (results, file) => {
+//       console.log('Results:', results, file)
+//     },
+//   })
+
   return (
     <div>
       <Row>
-        <img
-          src='../images/dance-radio-chart.jpg'
-          alt='Dance Radio Top 50 Chart'
-          width='200'
-          height='200'
-        ></img>
+        <img src={chart} alt='Dance Radio Top 50 Chart'></img>
       </Row>
     </div>
   )
