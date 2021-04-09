@@ -1,16 +1,16 @@
 import React from 'react'
-import { Row, Col, Container } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
-import './navbar.css'
+import './titlebar.css'
 
-const NavBar = () => {
+const TitleBar = () => {
   return (
     <div>
-      <Row className='navbar'>
+      <Row className='titlebar'>
         <Col lg={true}>1MUSICAVE | Having Fun While Business Gets Done!</Col>
       </Row>
     </div>
   )
 }
 
-export default NavBar
+export default TitleBar
