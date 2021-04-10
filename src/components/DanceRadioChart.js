@@ -1,25 +1,15 @@
 import React from 'react'
-import { Row } from 'react-bootstrap'
+import { Row, Card } from 'react-bootstrap'
 
-import chart from '../images/dance-radio-chart.jpg'
-
-import { readRemoteFile } from 'react-papaparse'
+import chart from '../images/mediabase.png'
 
 const DanceRadioChart = () => {    
-    
-//   readRemoteFile('../data/test-chart.csv', {
-//     header: true,
-//     download: true,
-//     dynamicTyping: true,
-//     complete: (results, file) => {
-//       console.log('Results:', results, file)
-//     },
-//   })
-
   return (
     <div>
       <Row>
+        <Card>
         <img src={chart} alt='Dance Radio Top 50 Chart'></img>
+        </Card>
       </Row>
     </div>
   )

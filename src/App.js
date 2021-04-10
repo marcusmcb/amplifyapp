@@ -12,7 +12,7 @@ function App() {
         <TitleBar />
         <NavBar />
         <MediaCard />
-        {/* <DanceRadioChart /> */}
+        <DanceRadioChart />
       </Container>
     </div>
   )
